@@ -573,7 +573,7 @@ bsCollapse.hide();
 });
 $('.brands-carousel').owlCarousel({
     loop: true,
-    margin: 20,
+    margin: 10,
     autoplay: true,
     autoplayTimeout: 2000,   // NOT 0
     autoplaySpeed: 800,      // smooth transition

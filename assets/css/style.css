@@ -1326,3 +1326,7 @@ body.light-theme .service-number {
 	background: black;
 }
 
+
+.owl-carousel .owl-stage-outer{
+	text-align: -webkit-center;
+}
