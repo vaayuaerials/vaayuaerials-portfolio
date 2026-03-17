@@ -292,12 +292,18 @@ body.light-theme .hero-navbar.scrolled {
 	background: linear-gradient(to top,
 			rgba(0, 0, 0, 0.7),
 			rgba(0, 0, 0, 0));
-	background-color: #fcd804;
+	    background-color: var(--overlay-bg);
 	color: var(--text-color);
 	opacity: 0;
 	transition: opacity 0.4s ease;
 }
+.project-info h5{
+	color: #fcd804;
 
+}
+.project-info span{
+      color: var(--text-color);
+}
 /* body.light-theme .project-info{
       background: #fbaa19;
       color: var(--text-color);
@@ -1319,3 +1325,4 @@ body.light-theme .service-number {
 .scroll-btn:hover {
 	background: black;
 }
+

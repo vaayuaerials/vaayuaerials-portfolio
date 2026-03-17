@@ -569,4 +569,22 @@ bsCollapse.hide();
 }
 
 });
+
+});
+$('.brands-carousel').owlCarousel({
+    loop: true,
+    margin: 20,
+    autoplay: true,
+    autoplayTimeout: 2000,   // NOT 0
+    autoplaySpeed: 800,      // smooth transition
+    smartSpeed: 800,
+    autoplayHoverPause: true,
+    dots: false,
+    nav: false,
+
+    responsive: {
+        0: { items: 2 },
+        600: { items: 4 },
+        1000: { items: 6 }
+    }
 });
